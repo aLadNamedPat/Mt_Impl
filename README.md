@@ -3,7 +3,8 @@
 ## Implementation includes C-Capt and D-Capt
 ### C-Capt
 C-Capt will launch centralized control of robots using Hungarian Algorithm for minimization of distance square among all participating robots
-C-Capt algorithm may be run with ros2 launch mt_impl C-Capt.py num_nodes:={number of goals} num_robots:={number of robots}
+C-Capt algorithm may be run with 
+$ros2 launch mt_impl C-Capt.py num_nodes:={number of goals} num_robots:={number of robots}$
 
 ### D-Capt
 D-Capt will launch de-centralized control of robots using randomized sort of robots to goals and will complete pairwise trades among participating robots in communication distance (distance square minimized)
