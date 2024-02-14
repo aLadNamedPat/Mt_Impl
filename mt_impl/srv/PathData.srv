@@ -1,0 +1,6 @@
+int64 robot_id
+string current_location
+string goal_location
+---
+bool accepted
+string switched_goal_location
